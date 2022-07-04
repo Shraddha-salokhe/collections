@@ -20,6 +20,9 @@ public class LinkedListRunner {
 		
 		System.out.println(animal.remove());//removing element...dog
 	    
+		//element() returns the first element. if the queue is empty
+		//then it will return null.
+		System.out.println(animal.element());
 		System.out.println(animal);//cat,lion...dog removed
 		
 		System.out.println(animal.peek());//output cat...because we deleted dog..in remove method
